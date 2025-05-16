@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="white" />
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="22" font-weight="bold" fill="#333333">AI题目解答系统架构</text>
+  
+  <!-- Section 1: Blue Box -->
+  <rect x="60" y="60" width="680" height="120" rx="10" ry="10" fill="#e6f7ff" stroke="#99d6ff" stroke-width="2" />
+  <text x="400" y="85" text-anchor="middle" font-size="18" font-weight="bold" fill="#3e76a9">1. 前置评估阶段</text>
+  
+  <!-- Section 1 Boxes -->
+  <rect x="95" y="95" width="180" height="50" rx="5" ry="5" fill="#b3e6ff" stroke="#66c2ff" stroke-width="1" />
+  <text x="185" y="125" text-anchor="middle" font-size="14" fill="#333333">分析学生已有知识基础</text>
+  
+  <rect x="310" y="95" width="180" height="50" rx="5" ry="5" fill="#b3e6ff" stroke="#66c2ff" stroke-width="1" />
+  <text x="400" y="125" text-anchor="middle" font-size="14" fill="#333333">识别题目/概念的关键知识点</text>
+  
+  <rect x="525" y="95" width="180" height="50" rx="5" ry="5" fill="#b3e6ff" stroke="#66c2ff" stroke-width="1" />
+  <text x="615" y="125" text-anchor="middle" font-size="14" fill="#333333">设计匹配难易程度</text>
+  
+  <!-- Arrow from Section 1 to 2 -->
+  <line x1="400" y1="180" x2="400" y2="200" stroke="#666666" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Section 2: Green Box -->
+  <rect x="60" y="200" width="680" height="270" rx="10" ry="10" fill="#ebf8e6" stroke="#b8e6b3" stroke-width="2" />
+  <text x="400" y="225" text-anchor="middle" font-size="18" font-weight="bold" fill="#34892d">2. 引导式教学主体阶段</text>
+  
+  <!-- Section 2 Top Boxes -->
+  <rect x="95" y="240" width="180" height="50" rx="5" ry="5" fill="#d6f5d6" stroke="#99e699" stroke-width="1" />
+  <text x="185" y="270" text-anchor="middle" font-size="14" fill="#333333">创建知识生态的框架</text>
+  
+  <rect x="310" y="240" width="180" height="50" rx="5" ry="5" fill="#d6f5d6" stroke="#99e699" stroke-width="1" />
+  <text x="400" y="270" text-anchor="middle" font-size="14" fill="#333333">概念构建</text>
+  
+  <rect x="525" y="240" width="180" height="50" rx="5" ry="5" fill="#d6f5d6" stroke="#99e699" stroke-width="1" />
+  <text x="615" y="270" text-anchor="middle" font-size="14" fill="#333333">引导分析问题结构</text>
+  
+  <!-- Section 2 Mid Title -->
+  <text x="400" y="315" text-anchor="middle" font-size="16" font-weight="bold" fill="#333333">指导具体操作</text>
+  
+  <!-- Section 2 Mid Boxes (3x3 grid) -->
+  <rect x="95" y="330" width="180" height="70" rx="5" ry="5" fill="white" stroke="#99e699" stroke-width="1" />
+  <text x="185" y="350" text-anchor="middle" font-size="14" fill="#333333">分层式解决方案</text>
+  <text x="185" y="370" text-anchor="middle" font-size="12" fill="#666666">思维模块拆解</text>
+  <text x="185" y="390" text-anchor="middle" font-size="12" fill="#666666">逐步解决步骤</text>
+  
+  <rect x="310" y="330" width="180" height="70" rx="5" ry="5" fill="white" stroke="#99e699" stroke-width="1" />
+  <text x="400" y="350" text-anchor="middle" font-size="14" fill="#333333">反馈和调整机制</text>
+  <text x="400" y="370" text-anchor="middle" font-size="12" fill="#666666">解题结果提示</text>
+  <text x="400" y="390" text-anchor="middle" font-size="12" fill="#666666">调整解题思路</text>
+  
+  <rect x="525" y="330" width="180" height="70" rx="5" ry="5" fill="white" stroke="#99e699" stroke-width="1" />
+  <text x="615" y="350" text-anchor="middle" font-size="14" fill="#333333">思维推进设计</text>
+  <text x="615" y="370" text-anchor="middle" font-size="12" fill="#666666">知识点关联</text>
+  <text x="615" y="390" text-anchor="middle" font-size="12" fill="#666666">符号和图示</text>
+  
+  <!-- Section 2 Bottom Boxes -->
+  <rect x="95" y="415" width="110" height="35" rx="5" ry="5" fill="#d6f5d6" stroke="#99e699" stroke-width="1" />
+  <text x="150" y="437" text-anchor="middle" font-size="14" fill="#333333">学习跟踪与评估</text>
+  
+  <rect x="235" y="415" width="330" height="35" rx="5" ry="5" fill="#d6f5d6" stroke="#99e699" stroke-width="1" />
+  <text x="400" y="437" text-anchor="middle" font-size="14" fill="#333333">知识精准训练</text>
+  
+  <rect x="595" y="415" width="110" height="35" rx="5" ry="5" fill="#d6f5d6" stroke="#99e699" stroke-width="1" />
+  <text x="650" y="437" text-anchor="middle" font-size="14" fill="#333333">应用能力设计</text>
+  
+  <!-- Arrow from Section 2 to 3 -->
+  <line x1="400" y1="470" x2="400" y2="490" stroke="#666666" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Section 3: Orange Box -->
+  <rect x="60" y="490" width="680" height="90" rx="10" ry="10" fill="#fff5e6" stroke="#ffd6b3" stroke-width="2" />
+  <text x="400" y="515" text-anchor="middle" font-size="18" font-weight="bold" fill="#b36f1c">3. 知识内化阶段</text>
+  
+  <!-- Section 3 Boxes -->
+  <rect x="95" y="525" width="120" height="40" rx="5" ry="5" fill="#ffe6cc" stroke="#ffcc99" stroke-width="1" />
+  <text x="155" y="550" text-anchor="middle" font-size="14" fill="#333333">总结关键要点</text>
+  
+  <rect x="235" y="525" width="150" height="40" rx="5" ry="5" fill="#ffe6cc" stroke="#ffcc99" stroke-width="1" />
+  <text x="310" y="550" text-anchor="middle" font-size="14" fill="#333333">建立知识体系</text>
+  
+  <rect x="405" y="525" width="150" height="40" rx="5" ry="5" fill="#ffe6cc" stroke="#ffcc99" stroke-width="1" />
+  <text x="480" y="550" text-anchor="middle" font-size="14" fill="#333333">扩展应用场景</text>
+  
+  <rect x="575" y="525" width="150" height="40" rx="5" ry="5" fill="#ffe6cc" stroke="#ffcc99" stroke-width="1" />
+  <text x="650" y="550" text-anchor="middle" font-size="14" fill="#333333">强化学习方法</text>
+  
+  <!-- Side Arrows -->
+  <path d="M 40,180 C 20,180 20,300 40,300" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M 760,300 C 780,300 780,180 760,180" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Arrow Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666666" />
+    </marker>
+  </defs>
+</svg>

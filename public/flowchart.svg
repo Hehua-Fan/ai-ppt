@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="300" y="50" width="200" height="80" rx="10" fill="#f8d7da" stroke="#721c24" stroke-width="2" />
+  <text x="400" y="95" text-anchor="middle" font-size="16">开始</text>
+  
+  <line x1="400" y1="130" x2="400" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <rect x="300" y="180" width="200" height="80" rx="10" fill="#d1ecf1" stroke="#0c5460" stroke-width="2" />
+  <text x="400" y="225" text-anchor="middle" font-size="16">处理</text>
+  
+  <line x1="400" y1="260" x2="400" y2="310" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <rect x="300" y="310" width="200" height="80" rx="10" fill="#d4edda" stroke="#155724" stroke-width="2" />
+  <text x="400" y="355" text-anchor="middle" font-size="16">结束</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- 坐标轴 -->
+  <line x1="50" y1="250" x2="450" y2="250" stroke="#333" stroke-width="2" />
+  <line x1="50" y1="250" x2="50" y2="50" stroke="#333" stroke-width="2" />
+  
+  <!-- 柱状图 -->
+  <rect x="100" y="150" width="40" height="100" fill="#7cb5ec" />
+  <rect x="200" y="100" width="40" height="150" fill="#434348" />
+  <rect x="300" y="180" width="40" height="70" fill="#90ed7d" />
+  <rect x="400" y="80" width="40" height="170" fill="#f7a35c" />
+  
+  <!-- 坐标标签 -->
+  <text x="120" y="270" text-anchor="middle" font-size="14">Q1</text>
+  <text x="220" y="270" text-anchor="middle" font-size="14">Q2</text>
+  <text x="320" y="270" text-anchor="middle" font-size="14">Q3</text>
+  <text x="420" y="270" text-anchor="middle" font-size="14">Q4</text>
+  
+  <text x="40" y="150" text-anchor="end" font-size="14">50</text>
+  <text x="40" y="100" text-anchor="end" font-size="14">100</text>
+  <text x="40" y="50" text-anchor="end" font-size="14">150</text>
+</svg>
